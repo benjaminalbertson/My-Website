@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: #dbdbdb; 
+    background-color: #dbdbdb;
+    background-image: url("forest.jpg") 
 }
 
 .nav-link {
@@ -26,6 +27,10 @@ body{
     width: 200px;
     height: 250px;
     margin-bottom: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 18px;
 }
 
 #aboutme {
@@ -34,4 +39,20 @@ body{
 
 #myschedule {
     margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #404040;
 }
