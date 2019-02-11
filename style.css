@@ -1,9 +1,29 @@
 .jumbotron {
     margin-bottom: 0px;
+    padding-top: 50px;
     text-align: center;
     background-color: #999b9e;
+    height: 125px;
+}
+
+body{
+    background-color: #dbdbdb; 
 }
 
 .nav-link {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#wrapper {
+    margin-top: 40px;
+    background-color: #999b9e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pictureofme {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 10px;
 }
