@@ -1,9 +1,9 @@
 .jumbotron {
     margin-bottom: 0px;
-    padding-top: 50px;
     text-align: center;
     background-color: #999b9e;
-    height: 125px;
+    min-height: 1px;
+    height: 100px;
 }
 
 body{
@@ -26,4 +26,12 @@ body{
     width: 200px;
     height: 250px;
     margin-bottom: 10px;
+}
+
+#aboutme {
+    margin-bottom: 15px;
+}
+
+#myschedule {
+    margin-bottom: 15px;
 }
