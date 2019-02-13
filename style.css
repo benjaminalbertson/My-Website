@@ -2,25 +2,53 @@
     margin-bottom: 0px;
     text-align: center;
     background-color: #999b9e;
-    min-height: 1px;
-    height: 100px;
 }
 
 body{
     background-color: #dbdbdb;
-    background-image: url("forest.jpg") 
+    background-image: url("images/pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+h2, h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.headerspecial {
+    font-family: 'Arimo', sans-serif;
+}
+
+p {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top: 15px;
+    text-align: center;
+}
+
+li {
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .nav-link {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
 }
 
 #wrapper {
     margin-top: 40px;
     background-color: #999b9e;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 50px;
 }
 
 #pictureofme {
@@ -33,6 +61,16 @@ body{
     margin-left: 18px;
 }
 
+#computerpicture {
+    margin: 5px;
+    width: 600px;
+    height: 450px;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    
+}
+
 #aboutme {
     margin-bottom: 15px;
 }
@@ -41,9 +79,7 @@ body{
     margin-bottom: 15px;
 }
 
-p {
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 a:link {
     color: black;
@@ -55,4 +91,11 @@ a:visited {
 
 a:hover {
     color: #404040;
+}
+
+
+#card {
+    height: 445px;
+    width: 300px;
+    margin-left: 20px;
 }
