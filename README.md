@@ -1,2 +1,2 @@
 # My-Website
-Website about me for CSCI 313
+Website that tells you about some of my interests and hobbies.
